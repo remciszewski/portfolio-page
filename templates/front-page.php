@@ -5,13 +5,56 @@
 get_header();
 ?>
 <div class="main-page-top">
-    <div class="social-buttons">
-        <a href="https://www.linkedin.com/in/remigiusz-ciszewski-137068264/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/remciszewski" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
+    <div class="navbar">
+        <!-- <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <div class="dropdown-menu-bg">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Projects</a></li>
+                                    <li><a class="dropdown-item" href="#">Certificates</a></li>
+                                    <li><a class="dropdown-item" href="#">About Me</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+        <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li>
+      <a href="#">Services</a>
+      <ul>
+        <li><a href="#">Service 1</a></li>
+        <li><a href="#">Service 2</a></li>
+        <li><a href="#">Service 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/remigiusz-ciszewski-137068264/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/remciszewski" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
     </div>
 
 </div>

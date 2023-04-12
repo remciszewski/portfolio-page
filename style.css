@@ -1050,13 +1050,79 @@ p{
 }
 .social-buttons a i{
 	font-size: 40px;
-	margin: 5px 5px 5px 5px;
 	color: #4B738A;
+	padding: 5px 5px 5px 5px;
 }
 .social-buttons{
 	display: flex;
 	justify-content: end;
 }
-.main-page-top{
-	position: fixed; top: 20px; right: 20px;
+.social-buttons a{
+	margin: 20px;
 }
+.main-page-top{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: rgba(75, 115, 138, 0.5);
+}
+.nav-link.dropdown-toggle:hover + .dropdown-menu-bg{
+	display: block;
+}
+.dropdown-menu-bg:hover ul{
+	display: block;
+}
+.nav-item.dropdown a:hover{
+	display: block;
+}
+/* navbar gpt */
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	position: relative;
+  }
+  
+  nav ul li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #333;
+  }
+  
+  nav ul li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+  }
+  
+  nav ul li:hover > ul {
+	display: block;
+  }
+  
+  nav ul li ul li {
+	display: block;
+	width: 100%;
+  }
+  
+  nav ul li ul li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #333;
+  }
+  
+  nav ul li ul li a:hover {
+	background-color: #f0f0f0;
+  }
+  
