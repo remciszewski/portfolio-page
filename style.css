@@ -1031,8 +1031,14 @@ p{
 .container-for-container-posts-r{
 	width: 45%;
 }
+.container-for-container-posts-r p{
+	line-height: 1;
+}
 .container-for-container-posts{
 	width: 45%;
+}
+.container-for-container-posts p{
+	line-height: 1;
 }
 .footer-contact{
 	display: flex;
@@ -1046,12 +1052,15 @@ p{
 }
 .page{
 	background-color: rgba(255, 255, 255, 1);
-	background-image: linear-gradient(139deg, rgba(255, 255, 255, 1) 0%, rgba(117, 148, 167, 1) 100%);
+	background-image: linear-gradient(139deg, rgba(255, 255, 255, 1) 0%, rgba(117, 148, 167, 1) 175%);
 }
 .social-buttons a i{
 	font-size: 40px;
 	color: #4B738A;
 	padding: 5px 5px 5px 5px;
+}
+.social-buttons a i:hover{
+	transform: scale(1.2);
 }
 .social-buttons{
 	display: flex;
@@ -1079,20 +1088,26 @@ p{
 
 nav ul {
 	list-style: none;
-	margin: 0;
+	margin: 20px;
 	padding: 0;
+	
   }
-  
   nav ul li {
 	display: inline-block;
 	position: relative;
+	background-color: white;
+	border-radius: 10%;
+	border: 1px solid #4B738A;
   }
   
   nav ul li a {
 	display: block;
 	padding: 10px 20px;
 	text-decoration: none;
-	color: #333;
+	color: #4B738A;
+  }
+  nav ul li a:visited {
+	color: inherit;
   }
   
   nav ul li ul {
@@ -1103,7 +1118,7 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	background-color: #fff;
-	border: 1px solid #ccc;
+	border: 1px solid #4B738A;
   }
   
   nav ul li:hover > ul {
@@ -1119,10 +1134,10 @@ nav ul {
 	display: block;
 	padding: 10px 20px;
 	text-decoration: none;
-	color: #333;
+	color: #4B738A;
   }
   
   nav ul li ul li a:hover {
 	background-color: #f0f0f0;
   }
-  
+

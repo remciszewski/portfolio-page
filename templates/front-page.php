@@ -4,9 +4,9 @@
 <?php
 get_header();
 ?>
-<div class="main-page-top">
+<!-- <div class="main-page-top">
     <div class="navbar">
-        <!-- <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -29,23 +29,21 @@ get_header();
                     </ul>
                 </div>
             </div>
-        </nav> -->
+        </nav>
 
         <nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li>
-      <a href="#">Services</a>
-      <ul>
-        <li><a href="#">Service 1</a></li>
-        <li><a href="#">Service 2</a></li>
-        <li><a href="#">Service 3</a></li>
-      </ul>
-    </li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Menu</a>
+                        <ul>
+                            <li><a href="http://localhost/portfolio/wordpress/strona-glowna/projects/">Projects</a></li>
+                            <li><a href="#">Certificates</a></li>
+                            <li><a href="#">About Me</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
 
         <div class="social-buttons">
             <a href="https://www.linkedin.com/in/remigiusz-ciszewski-137068264/" target="_blank">
@@ -57,10 +55,10 @@ get_header();
         </div>
     </div>
 
-</div>
+</div> -->
 
 <div class="container-main-page">
-    <div class="left-colu mn-main-page">
+    <div class="left-column-main-page">
         <h1 id="typer"></h1>
     </div>
     <div class="content-main-page">

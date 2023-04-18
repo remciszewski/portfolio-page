@@ -42,10 +42,12 @@
 
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 <script>
 	const typer = document.getElementById("typer");
 	const text = "Hello, my name is Remigiusz.";
 	const newText = "Cześć, nazywam się Remigiusz.";
+	const newText_JP = "こんにちは、私の名前はレミギウスです。";
 
 	function typeEffect(element, speed) {
 		const textArray = text.split("");
@@ -77,6 +79,21 @@
 		}, speed);
 	}
 
+	function typeEffect_JP(element, speed) {
+		const textArray = newText_JP.split("");
+		const interval = setInterval(function() {
+			if (textArray.length === 0) {
+				clearInterval(interval);
+				element.classList.add("cursor");
+				setTimeout(function() {
+					deleteEffect_JP(element, speed);
+				}, 1000);
+			} else {
+				element.innerHTML += textArray.shift();
+			}
+		}, speed);
+	}
+
 	function deleteEffect(element, speed) {
 		const textArray = text.split("");
 		const interval = setInterval(function() {
@@ -95,6 +112,22 @@
 
 	function deleteEffect_EN(element, speed) {
 		const textArray = newText.split("");
+		const interval = setInterval(function() {
+			if (textArray.length === 0) {
+				clearInterval(interval);
+				element.classList.add("cursor");
+				setTimeout(function() {
+					typeEffect_JP(element, speed);
+				}, 1000);
+			} else {
+				textArray.pop();
+				element.innerHTML = textArray.join("");
+			}
+		}, speed);
+	}
+
+	function deleteEffect_JP(element, speed) {
+		const textArray = newText_JP.split("");
 		const interval = setInterval(function() {
 			if (textArray.length === 0) {
 				clearInterval(interval);

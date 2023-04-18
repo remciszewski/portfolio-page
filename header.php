@@ -62,3 +62,55 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+	<div class="main-page-top">
+    <div class="navbar">
+        <!-- <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <div class="dropdown-menu-bg">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Projects</a></li>
+                                    <li><a class="dropdown-item" href="#">Certificates</a></li>
+                                    <li><a class="dropdown-item" href="#">About Me</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+        <nav>
+                <ul>
+                    <li><a href="http://localhost/portfolio/wordpress/">Home</a></li>
+                    <li>
+                        <a href="#">Menu</a>
+                        <ul>
+                            <li><a href="http://localhost/portfolio/wordpress/strona-glowna/projects/">Projects</a></li>
+                            <li><a href="#">Certificates</a></li>
+                            <li><a href="#">About Me</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/remigiusz-ciszewski-137068264/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/remciszewski" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
